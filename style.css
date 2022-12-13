@@ -1,0 +1,94 @@
+html {
+    background-color: #486B7C;
+}
+
+@font-face {
+    font-family: "myFonth1";
+    src: url("fonts/Oswald-Medium.ttf");
+}
+@font-face {
+    font-family: "myFonth2";
+    src: url("fonts/Oswald-Regular.ttf");
+}
+@font-face {
+    font-family: "myFonth3";
+    src: url("fonts/Oswald-Light.ttf");
+}
+#garland{position:absolute;top:0;left:0;background-image:url('garland.png');height:36px;width:100%;overflow:hidden;z-index:99}  
+#nums_1{padding:100px}  
+.garland_1{background-position: 0 0}  
+.garland_2{background-position: 0 -36px}  
+.garland_3{background-position: 0 -72px}  
+.garland_4{background-position: 0 -108px}
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 100px;
+
+}
+.pozdr {
+    text-align: center;
+    color: aliceblue;
+}
+.button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    border-radius: 3em;
+    border-color: #fff;
+    color: rgb(148, 14, 14);
+    background-image: -webkit-linear-gradient(left, rgba(247, 0, 0, 0.6), rgba(247, 0, 0, 0.6) 5%, #fff 5%, #fff 10%, rgba(247, 0, 0, 0.6) 10%, rgba(247, 0, 0, 0.6) 15%, #fff 15%, #fff 20%, rgba(247, 0, 0, 0.6) 20%, rgba(247, 0, 0, 0.6) 25%, #fff 25%, #fff 30%, rgba(247, 0, 0, 0.6) 30%, rgba(247, 0, 0, 0.6) 35%, #fff 35%, #fff 40%, rgba(247, 0, 0, 0.6) 40%, rgba(247, 0, 0, 0.6) 45%, #fff 45%, #fff 50%, rgba(247, 0, 0, 0.6) 50%, rgba(247, 0, 0, 0.6) 55%, #fff 55%, #fff 60%, rgba(247, 0, 0, 0.6) 60%, rgba(247, 0, 0, 0.6) 65%, #fff 65%, #fff 70%, rgba(247, 0, 0, 0.6) 70%, rgba(247, 0, 0, 0.6) 75%, #fff 75%, #fff 80%, rgba(247, 0, 0, 0.6) 80%, rgba(247, 0, 0, 0.6) 85%, #fff 85%, #fff 90%, rgba(247, 0, 0, 0.6) 90%, rgba(247, 0, 0, 0.6) 95%, #fff 95%, #fff 100%);
+    background-position: 0 0;
+    background-size: 100%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .button:hover {
+    background-position: 100px;
+  }
+  #btn1 {
+    width: 100%;
+  }
+  #btn2 {
+    width: 100%;
+  }
+  #btn3 {
+    width: 100%;
+  }
+  #btn4 {
+    width: 100%;
+  }
+  #btn5 {
+    width: 100%;
+  }
+  .column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+    position: relative;
+    display: none;
+}
+
+ 
