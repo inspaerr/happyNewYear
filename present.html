@@ -10,7 +10,7 @@
         if(nums == 4) {document.getElementById('garland').className='garland_4';document.getElementById('nums_1').innerHTML='1'}  
         }  
         setInterval(function(){garland()}, 300)  
-        </script>
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Подключение к googleFonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
@@ -21,18 +21,20 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div id="garland" class="garland_4"><div id="nums_1">1</div></div>
     <header class="header">
-        <div id="garland" class="garland_4"><div id="nums_1">1</div></div> 
-        <!-- Menu -->
-        <!--<nav class="nav">
-            <ul class="menu">
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="index4.html">Карта Москвы</a></li>
-                <li><a href="index3.html">Карта осадков</a></li>
-                <li><a href="index2.html">Связаться с автором</a></li>
-            </ul>
-        </nav>-->
-    </header>
+      <!-- Logo -->
+      <a class="logo"></a>
+      <!-- Hamburger icon -->
+      <input class="side-menu" type="checkbox" id="side-menu"/>
+      <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+      <!-- Menu -->
+      <nav class="nav">
+          <ul class="menu">
+              <li><a href="opinionForm.html">Обратная связь</a></li>
+          </ul>
+      </nav>
+  </header>
 
     <main> <!---Основное содержание страницы-->
       <h1>С Новым годом, Семья!!</h1>
@@ -59,6 +61,9 @@
         <a href="https://media.tenor.com/1kZ2j73pGDUAAAAd/capybara-ok-he-pull-up.gif"><img src="трость.png" height="100px"></a>
       </div>
     </div>
+    <footer> <!--подвал сайта-->
+      Автор <address>Канчура Софья</address>
+    </footer>
     
     </main>
     
