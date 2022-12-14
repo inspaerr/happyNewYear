@@ -21,23 +21,23 @@ html {
 .garland_3{background-position: 0 -72px}  
 .garland_4{background-position: 0 -108px}
 
-.fathers {
+.granieses {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-  #f1{
+  #grs1{
     width: 100%;
     height: auto;
   }
-  #f2{
+  #grs2{
     width: 100%;
     height: auto;
   }
-  #f3{
+  #grs3{
     width: 100%;
     height: auto;
   }
-  .pozdr_fath {
+  .pozdr_grannies {
     text-align: center;
     color: aliceblue;
 }

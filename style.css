@@ -85,8 +85,6 @@ h1{
     clear: both;
 }
 
-/* The expanding image container (positioning is needed to position the close button and the text) */
-.container {
-    position: relative;
-    display: none;
-}
+
+
+

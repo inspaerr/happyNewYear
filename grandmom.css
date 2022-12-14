@@ -21,23 +21,23 @@ html {
 .garland_3{background-position: 0 -72px}  
 .garland_4{background-position: 0 -108px}
 
-.fathers {
+.grandmoms {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-  #f1{
+  #gm1{
     width: 100%;
     height: auto;
   }
-  #f2{
+  #gm2{
     width: 100%;
     height: auto;
   }
-  #f3{
+  #gm3{
     width: 100%;
     height: auto;
   }
-  .pozdr_fath {
+  .pozdr_grandmom {
     text-align: center;
     color: aliceblue;
 }

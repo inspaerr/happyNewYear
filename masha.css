@@ -21,23 +21,31 @@ html {
 .garland_3{background-position: 0 -72px}  
 .garland_4{background-position: 0 -108px}
 
-.fathers {
+.mashas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-  #f1{
+  #mash1{
     width: 100%;
     height: auto;
   }
-  #f2{
+  #mash2{
     width: 100%;
     height: auto;
   }
-  #f3{
+  #mash3{
     width: 100%;
     height: auto;
   }
-  .pozdr_fath {
+  #mash4{
+    width: 100%;
+    height: auto;
+  }
+  #mash5{
+    width: 100%;
+    height: auto;
+  }
+  .pozdr_masha {
     text-align: center;
     color: aliceblue;
 }
