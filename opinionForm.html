@@ -22,28 +22,32 @@
 </head>
 <body>
 <div id="garland" class="garland_4"><div id="nums_1">1</div></div>
+<div class="write_me">
+    <p>____________</p>
+    <p>Напишите своё мнение о сайте</p>
+    <p>или поздравьте меня с новым годом!</p>
+    <p>*письмо придет мне на почту*</p>
+</div>
 <div id="container">
 <form class="mainform" >
   			  <p class="name">
     				<input type="text" name="name" value="Имя автора" onblur="if(this.value.length == 0) this.value = 'Имя автора'" onfocus="if(this.value == 'Имя автора') this.value = '' "/>
-       				    <label for="name">Имя</label>
     			</p>
  
    			 <p class="email">
-    				<input type="text" name="email" value="name@example.com" onblur="if(this.value.length == 0) this.value = 'name@example.com'" onfocus="if(this.value == 'name@example.com') this.value = '' "/>
-        			 	 <label for="email" >E-Mail</label>
-    </p>
+    				<input type="text" name="email" value="name@example.com" onblur="if(this.value.length == 0) this.value = 'name@example.com'" onfocus="if(this.value == 'name@example.com') this.value = '' "/> 
+            </p>
     <p class="msg">
     				<textarea name="msg" onblur="if(this.value.length == 0) this.value = 'Текст сообщения'" onfocus="if(this.value == 'Текст сообщения') this.value=''">Текст сообщения</textarea>
    			   </p>
-   			   <p class="send" >
-    				<input type="submit" value="Отправить"  />
-   			 </p>
+   			   <p>
+    				<button class="send">Отправить</button>
+                </p>
 </form>
 </div>
-<div class="me_img"><img id="me" src="я.jpg" width="300px"></div>
+<div class="me_img"><img id="me" src="я.jpg" width="270px"></div>
 <footer> <!--подвал сайта-->
     Автор <address>Канчура Софья</address>
-  </footer>
+</footer>
 </body>
 </html>

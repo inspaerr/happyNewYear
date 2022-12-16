@@ -59,13 +59,31 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 	border-color: #A0A0A0;
 }
 
-.send input:hover {
-	border: 2px solid #C0C0E3;
-}
+
+.send {
+	background: #263740;
+	color: #A0A0A0;
+	width: 130px;
+	height: 40px;
+	line-height: 42px;
+	padding: 0;
+	border: none;
+	
+  }
+  .send:active {
+	width: 127px;
+	height: 37px;
+    }
+
 .mainform {
     text-align: center;
 }
 
 .me_img{
 	text-align: center;
+}
+.write_me {
+    text-align: center;
+    color: aliceblue;
+	font-size: 20px;
 }
