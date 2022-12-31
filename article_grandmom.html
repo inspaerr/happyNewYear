@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <script type="text/javascript">  
+        function garland() {  
+        nums = document.getElementById('nums_1').innerHTML  
+        if(nums == 1) {document.getElementById('garland').className='garland_1';document.getElementById('nums_1').innerHTML='2'}  
+        if(nums == 2) {document.getElementById('garland').className='garland_2';document.getElementById('nums_1').innerHTML='3'}  
+        if(nums == 3) {document.getElementById('garland').className='garland_3';document.getElementById('nums_1').innerHTML='4'}  
+        if(nums == 4) {document.getElementById('garland').className='garland_4';document.getElementById('nums_1').innerHTML='1'}  
+        }  
+        setInterval(function(){garland()}, 300)  
+        </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Подключение к googleFonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С Новым годом, Семья!!</title> <!--Название страницы-->
+    <link rel="icon" type="image/png" href="favicon_pr.png"> <!--привязывание фавиконки-->
+    <link rel="stylesheet" href="article_grandmom.css">
+  </head>
+  <body>
+    <header class="header">
+        <div id="garland" class="garland_4"><div id="nums_1">1</div></div> 
+    </header>
+
+    <main> <!---Основное содержание страницы-->
+      <h1>Бабушка</h1>
+        <div class="about_grandmom">
+            <p>Не смотря на то, что мы были на расстоянии, мы с Бабушкой постоянно держали связь.</p>
+            <p>С Новым Годом, Бабуль, я очень люблю тебя и ценю твою порой слишком активную заботу обо мне...</p>
+            <p>Ниже представленны карточки воспоминаний:</p>
+          </div>
+
+          <div class="cards">
+          <div class="card">
+            <img src="школа.jpg" alt="Avatar" style="width:60%">
+            <div class="container">
+              <h4><b>Начальная школа</b></h4>
+              <p>Наверное первое воспоминание о Бабуле это то как, она забирает меня из школы весной.</p>
+              <p>Обещает мне подарок за уже полученную пятерку.</p>
+              <p>Мы идем домой обедать вкусным приготовленным Бабой супом.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="оладушки.jpg" alt="Avatar" style="width:60%">
+            <div class="container">
+              <h4><b>Оладушки и варенье</b></h4>
+              <p>Самое отличительное блюдо у Бабушки - это оладушки.</p>
+              <p>В любое время дня и ночь могу их кушать.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="анапа.jpg" alt="Avatar" style="width:60%">
+            <div class="container">
+              <h4><b>Лето в Анапе</b></h4>
+              <p>Как мы играем в карты на пляже, едим кукурузу за 50 рубей.</p>
+              <p>Резиновые игрушки, постоянные походы на рынок.</p>
+              <p>Всё это осталось в моей памяти навсегда.</p>
+            </div>
+          </div>
+          </div>
+
+          <footer> <!--подвал сайта-->
+            Автор <address>Канчура Софья</address>
+          </footer>
+    </main>
+    
+</body>

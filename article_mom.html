@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <script type="text/javascript">  
+        function garland() {  
+        nums = document.getElementById('nums_1').innerHTML  
+        if(nums == 1) {document.getElementById('garland').className='garland_1';document.getElementById('nums_1').innerHTML='2'}  
+        if(nums == 2) {document.getElementById('garland').className='garland_2';document.getElementById('nums_1').innerHTML='3'}  
+        if(nums == 3) {document.getElementById('garland').className='garland_3';document.getElementById('nums_1').innerHTML='4'}  
+        if(nums == 4) {document.getElementById('garland').className='garland_4';document.getElementById('nums_1').innerHTML='1'}  
+        }  
+        setInterval(function(){garland()}, 300)  
+        </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Подключение к googleFonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С Новым годом, Семья!!</title> <!--Название страницы-->
+    <link rel="icon" type="image/png" href="favicon_pr.png"> <!--привязывание фавиконки-->
+    <link rel="stylesheet" href="article_mom.css">
+  </head>
+  <body>
+    <header class="header">
+        <div id="garland" class="garland_4"><div id="nums_1">1</div></div> 
+    </header>
+
+    <main> <!---Основное содержание страницы-->
+      <h1>Мама</h1>
+        <div class="about_mom">
+            <p>В этом году мы с мамой сблизились ещё сильнее.</p>
+            <p>Ничего лишнего, просто таймлайн счастливых событий с мамой за этот год:</p>
+          </div>
+
+          <div class="timeline">
+            <div class="container left">
+              <div class="content">
+                <h2>январь</h2>
+                <p>Мама поддерживает меня в тяжелую первую сессию.</p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <h2>апрель</h2>
+                <p>Активно собираем коробки для переезда, вместе пьём кофе и принимаем квартиру.</p>
+              </div>
+            </div>
+            <div class="container left">
+              <div class="content">
+                <h2>июль</h2>
+                <p>В солнечном Сочи лежим на пляже.</p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <h2>сентрябрь</h2>
+                <p>Мама приехала ко мне, взяв командрировку, чтобы поддержать меня.</p>
+              </div>
+            </div>
+            <div class="container left">
+              <div class="content">
+                <h2>ноябрь</h2>
+                <p>Едем на машине по Надымской дороге навстречу солнцу.</p>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="container right">
+              <div class="content">
+                <h2>декабрь</h2>
+                <p>Я снова дома, мама мне рисует йодовую сеточку на синяках.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="upak_mom"><img src="упаковка.jpg" id="upak_mom" width="50%"></div>
+          <div id="PS_mom"><p>PS Если бы мама была упаковкой подарка,</p>
+          <p>То это бы была крафтовая упаковка с натуральными украшениями: корица, еловые веточки, рябина</p></div>
+
+          <footer> <!--подвал сайта-->
+            Автор <address>Канчура Софья</address>
+          </footer>
+    </main>
+</body>

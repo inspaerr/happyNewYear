@@ -1,0 +1,62 @@
+html {
+    background-color: #486B7C;
+}
+
+@font-face {
+    font-family: "myFonth1";
+    src: url("fonts/Oswald-Medium.ttf");
+}
+@font-face {
+    font-family: "myFonth2";
+    src: url("fonts/Oswald-Regular.ttf");
+}
+@font-face {
+    font-family: "myFonth3";
+    src: url("fonts/Oswald-Light.ttf");
+}
+#garland{position:absolute;top:0;left:0;background-image:url('garland.png');height:36px;width:100%;overflow:hidden;z-index:99;}  
+#nums_1{padding:100px}  
+.garland_1{background-position: 0 0}  
+.garland_2{background-position: 0 -36px}  
+.garland_3{background-position: 0 -72px}  
+.garland_4{background-position: 0 -108px}
+ 
+h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+}
+#PS_father {
+    text-align: center;
+    color: rgb(177, 183, 186);
+}
+.about_father {
+    text-align: center;
+    color: rgb(177, 183, 186);
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 70%;
+    text-align: center;
+    display: block; 
+    margin: 0 auto;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}

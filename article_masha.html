@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <script type="text/javascript">  
+        function garland() {  
+        nums = document.getElementById('nums_1').innerHTML  
+        if(nums == 1) {document.getElementById('garland').className='garland_1';document.getElementById('nums_1').innerHTML='2'}  
+        if(nums == 2) {document.getElementById('garland').className='garland_2';document.getElementById('nums_1').innerHTML='3'}  
+        if(nums == 3) {document.getElementById('garland').className='garland_3';document.getElementById('nums_1').innerHTML='4'}  
+        if(nums == 4) {document.getElementById('garland').className='garland_4';document.getElementById('nums_1').innerHTML='1'}  
+        }  
+        setInterval(function(){garland()}, 300)  
+        </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Подключение к googleFonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С Новым годом, Семья!!</title> <!--Название страницы-->
+    <link rel="icon" type="image/png" href="favicon_pr.png"> <!--привязывание фавиконки-->
+    <link rel="stylesheet" href="article_masha.css">
+  </head>
+  <body>
+    <header class="header">
+        <div id="garland" class="garland_4"><div id="nums_1">1</div></div> 
+    </header>
+
+    <main> <!---Основное содержание страницы-->
+      <h1>Машута</h1>
+        <div class="about_masha">
+            <p>За этот год Маша очень выросла...</p>
+            <p>Но в ней до сих пор есть дух бунтарства и атмосфера спокойствия во время паники.</p>
+            <p>Такое противоречие создает очень странное впечатление о ней, ощущение того, что от Маши неизвестно, что ожидать. И мне это очень нравится!!!</p>
+            <p>Небольшой таймлайн о нашем сестринстве...</p>
+          </div>
+
+          <div class="timeline">
+            <div class="container left">
+              <div class="content">
+                <h2>2005-2018</h2>
+                <p>Живём с Машей как соседи и очень часто дерёмся...</p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <h2>2019</h2>
+                <p>О да Маша и Соня - лучшие подруги на веки! </p>
+              </div>
+            </div>
+            <div class="container left">
+              <div class="content">
+                <h2>2020</h2>
+                <p>C Машей в карантин сбегаем из дома по ночам, просыпаем уроки</p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <h2>2021</h2>
+                <p>Очень много проводим время вместе, также с моими друзьями и друзями Маши.</p>
+                <p>Не понимаем, как будем друг без друга, когда я уеду.</p>
+              </div>
+            </div>
+            <div class="container left">
+              <div class="content">
+                <h2>2022</h2>
+                <p>Вместе съездили отдохнуть на море... Очень рассчитываю на поддержку Маши, общаемся на расстоянии.</p>
+                <p>Готовим друг другу подарки с любовью на это Новый Год.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mash_salad"><img src="маша салат.webp" id="mash_salad"></div>
+          <div id="PS_mash">PS это Маша, если бы была Новогодним салатом.</div>
+
+          <footer> <!--подвал сайта-->
+            Автор <address>Канчура Софья</address>
+          </footer>
+    </main>
+    
+</div>
+</body>

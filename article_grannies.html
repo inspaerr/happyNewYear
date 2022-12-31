@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <script type="text/javascript">  
+        function garland() {  
+        nums = document.getElementById('nums_1').innerHTML  
+        if(nums == 1) {document.getElementById('garland').className='garland_1';document.getElementById('nums_1').innerHTML='2'}  
+        if(nums == 2) {document.getElementById('garland').className='garland_2';document.getElementById('nums_1').innerHTML='3'}  
+        if(nums == 3) {document.getElementById('garland').className='garland_3';document.getElementById('nums_1').innerHTML='4'}  
+        if(nums == 4) {document.getElementById('garland').className='garland_4';document.getElementById('nums_1').innerHTML='1'}  
+        }  
+        setInterval(function(){garland()}, 300)  
+        </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Подключение к googleFonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С Новым годом, Семья!!</title> <!--Название страницы-->
+    <link rel="icon" type="image/png" href="favicon_pr.png"> <!--привязывание фавиконки-->
+    <link rel="stylesheet" href="article_grannies.css">
+  </head>
+  <body>
+    <header class="header">
+        <div id="garland" class="garland_4"><div id="nums_1">1</div></div> 
+    </header>
+
+    <main> <!---Основное содержание страницы-->
+      <h1>Бабуля и дедуля</h1>
+        <div class="about_grannies">
+            <p>В 2022 году случилось то, что сильно повлияло на нашу жизнъ.</p>
+            <p>Но теперь я очень рада, что Бабушка и Дедушка живут так рядом.</p>
+            <p>У меня есть ещё одно место в Салехарде, где я могу попить вкусный чай, где мне всегда рады, меня всегда выслушают и поймут...</p>
+            <p>Также ниже представлены карточки воспоминаний:</p>
+          </div>
+
+          <div class="cards">
+          <div class="card">
+            <img src="парк.jpg" alt="Avatar" style="width:60%">
+            <div class="container">
+              <h4><b>Шодуаровский парк</b></h4>
+              <p>Этот парк является оин из символов моего детства.</p>
+              <p>Я помню, как Бабушка и Дедушка водили меня на аттракционы, и где-то там был этот парк с фонтами.</p>
+              <p>Я имею эти смутные, но прекрасны воспоминания благодаря вам.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="деревня.jpg" alt="Avatar" style="width:60%">
+            <div class="container">
+              <h4><b>Деревня под Житомиром</b></h4>
+              <p>Эта деревня мне снится уже 10 лет.</p>
+              <p>Я помню дорогу через деревню, слева от которой были дома. Помню магазин и синий дом.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="лук.jpg" alt="Avatar" style="width:60%">
+            <div class="container">
+              <h4><b>Фиолетовый лук</b></h4>
+              <p>Моя история любви к этому луку началась именно благодаря вам.</p>
+              <p>До сих пор он является самым любимым, а в сочетании с борщом он возвращает меня в детство.</p>
+            </div>
+          </div>
+          </div>
+
+          <footer> <!--подвал сайта-->
+            Автор <address>Канчура Софья</address>
+          </footer>
+    </main>
+    
+</body>

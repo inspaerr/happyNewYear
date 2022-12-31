@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <script type="text/javascript">  
+        function garland() {  
+        nums = document.getElementById('nums_1').innerHTML  
+        if(nums == 1) {document.getElementById('garland').className='garland_1';document.getElementById('nums_1').innerHTML='2'}  
+        if(nums == 2) {document.getElementById('garland').className='garland_2';document.getElementById('nums_1').innerHTML='3'}  
+        if(nums == 3) {document.getElementById('garland').className='garland_3';document.getElementById('nums_1').innerHTML='4'}  
+        if(nums == 4) {document.getElementById('garland').className='garland_4';document.getElementById('nums_1').innerHTML='1'}  
+        }  
+        setInterval(function(){garland()}, 300)  
+        </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Подключение к googleFonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С Новым годом, Семья!!</title> <!--Название страницы-->
+    <link rel="icon" type="image/png" href="favicon_pr.png"> <!--привязывание фавиконки-->
+    <link rel="stylesheet" href="article_father.css">
+  </head>
+  <body>
+    <header class="header">
+        <div id="garland" class="garland_4"><div id="nums_1">1</div></div> 
+    </header>
+
+    <main> <!---Основное содержание страницы-->
+      <h1>Папа</h1>
+        <div class="about_father">
+            <p>В этом году нам с папой представилось мало шансов покататься или куда-нибудь съездить.</p>
+            <p>От этого воспоминания становятся еще более ценными.</p>
+            <p>С Новым Годом, Папа!!</p>
+            <p>Ниже представленны карточки воспоминаний:</p>
+          </div>
+
+          <div class="cards">
+          <div class="card">
+            <img src="поход.jpg" alt="Avatar" style="width:60%">
+            <div class="container">
+              <h4><b>Походы</b></h4>
+              <p>Однажды я нарисовала картину, посвященную походу к реке.</p>
+              <p>Мы пили очень много кофе, я рисовала, сидя на пне,</p>
+              <p>а папа рассказывал мне, какая рыба водится в этой реке.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="рыбалка.jpg" alt="Avatar" style="width:60%">
+            <div class="container">
+              <h4><b>Рыбалка</b></h4>
+              <p>Никогда не забуду, как мы рыбачили с лодки, и я сломала папину удочку пополам.</p>
+              <p>Это было очень смешно и страшно одновременно.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="снегоход.avif" alt="Avatar" style="width:60%">
+            <div class="container">
+              <h4><b>Снегоход</b></h4>
+              <p>Тут и лишних слов не надо.</p>
+              <p>Я перевернула папин снегоход.</p>
+            </div>
+          </div>
+          </div>
+
+          <footer> <!--подвал сайта-->
+            Автор <address>Канчура Софья</address>
+          </footer>
+    </main>
+    
+</body>
